@@ -1,0 +1,26 @@
+.modal__body__acc {
+    background: #6e7a86;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 1px rgba(150,150,150, 1) solid;
+    border-radius: 7px;
+}
+
+
+.modal__wrapper__acc.open {
+    height: 100%;
+    display: block;
+
+    border-image: linear-gradient(to right, rgba(150,150,150, 1), rgba(150,150,150, 0));
+    border-image-slice: 1;
+    border-bottom: 1px white solid;
+}
+
+.modal__wrapper__acc.close {
+    height: 0;
+    display: none;
+}

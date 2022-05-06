@@ -1,0 +1,39 @@
+.App{
+  min-height: 100vh;
+  background: radial-gradient(at top, #68676B, #232426);
+  color: white;
+}
+
+.NavCol{
+
+  background: #374756;
+  padding-left: 10px;
+  padding-bottom: 20px;
+
+  width: 34.46% !important;
+  height: 49.52% !important;
+  border-radius: 10px !important;
+  background: rgba(77, 152, 214, 0.2) !important;
+  min-height: 470px !important;
+  min-width: 320px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.MainCol{
+  float: right;
+  margin-left: 30px;
+  border-radius: 10px !important;
+  background: rgba(77, 152, 214, 0.2) !important;
+  margin-bottom: 20px;
+  width: 59% !important;
+  height: 92.2% !important;
+  min-height: 850px;
+  min-width: 620px;
+}
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("../fonts/Bahnschrift.ttf");
+  font-style: normal;
+  font-weight: normal;
+}

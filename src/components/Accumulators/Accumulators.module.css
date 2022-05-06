@@ -1,0 +1,80 @@
+
+
+.accumulatorsChoose {
+    border-image: linear-gradient(to right, rgba(150,150,150, 1), rgba(150,150,150, 0));
+    border-image-slice: 1;
+    border-bottom: 1px white solid;
+}
+
+.accumulators {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.headWrapper {
+    display:flex;
+    border-image: linear-gradient(to right, rgba(150,150,150, 1), rgba(150,150,150, 0));
+    border-image-slice: 1;
+    border-bottom: 1px white solid;
+}
+
+.titleOfHeader {
+    margin: auto;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.addAndRemoveBlock {
+    display:flex;
+}
+
+.chooseTitle {
+    font-size: 12px;
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.buttonStyle{
+    background: #6e7a86;
+    margin: auto;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    margin-left: 10px;
+    color: white;
+    border: 0px;
+    font-size: 14px;
+}
+
+.buttonStyle:hover {
+    background: rgba(160,160,160, 1);
+}
+
+.arrow {
+    display: block;
+    width: 10px;
+    margin-top: 30px;
+}
+
+.submit_btn {
+    background: rgba(150,150,150, 0);
+    border: 1px solid white;
+    color: white;
+    
+    font-size: 14px;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 232px;
+}
+
+.submit_btn:hover {
+    background: rgba(160,160,160, 1);
+}
+
+.identificatorOfAcc {
+    border-image: linear-gradient(to right, rgba(150,150,150, 1), rgba(150,150,150, 0));
+    border-image-slice: 1;
+    border-bottom: 1px white solid;
+}

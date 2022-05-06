@@ -1,0 +1,152 @@
+#topDiv {
+    margin-top: 5px; 
+    height: 7vh;
+}
+
+#address {
+    float: left; 
+    color: black;
+    padding-left: 2%;
+}
+
+.DateTime {
+    text-align: center;
+    transform: translateX(-3%);
+}
+
+#homeRef {
+    position: absolute;
+    right: 5%;
+    top: 3px;
+}
+
+#loadRef {
+    position: absolute;
+    right: clamp(8%, 8%, 8%);
+    top: 3px;
+}
+
+.Img {
+    width: clamp(25px, 2vw, 30px) ;
+}
+
+
+.LongLineCustom{
+    margin: 1%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+
+.MainPage {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(at top, #68676B, #232426);
+    
+}
+
+.LocationAndDate {
+  color: #ffffff;
+  height: 0px;
+}
+.LabelText {
+    font-size: 18px;
+    color: #ffffff;
+    float: top;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#accumulators {
+    border-top: 1px solid rgba(150,150,150,0.7);
+    border-bottom: 1px solid rgba(150,150,150,0.7);
+    font-size: 15px;
+    color: #ffffff;
+    height: 20px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.Button {
+    border-radius: 5px;
+    background: rgba(150,150,150, 0);
+    height: 30px;
+    border-color: rgba(190,190,190, 1);
+    color: #ffffff;
+}
+
+#saveActionButton {
+    float: right;
+    /*display:inline !important;
+    vertical-align: bottom;
+    display: block;*/
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.Text {
+    /*border-top: 1px solid linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;*/
+    /*border-bottom: 1px solid linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;*/
+    /*border-top: 1px solid rgba(90,90,90,0.7);*/
+    /*border-top: 1px solid rgba(150,150,150,0.7);*/
+    border-bottom: 1px solid rgba(150,150,150,0.7);
+    border-image: linear-gradient(to right, rgba(150,150,150, 1), rgba(150,150,150, 0));
+    border-image-slice: 1;
+    /*border-bottom: 1px solid rgba(150,150,150,0.7);*/
+    font-size: 15px;
+    color: #ffffff;
+    height: 20px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.Text:hover {
+    background: linear-gradient(to right, rgba(160,160,160, 1), rgba(160,160,160, 0))
+}
+
+#dateTime {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 50%;
+}
+
+#location {
+    font-size: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+    height: 20px;
+}
+#lineForLocationAndDateBlock {
+    background: radial-gradient(at top, #232426, #68676B);
+    margin-top: -15px;
+}
+
+.BatteryMonitoring {
+    float: left;
+    width: 34.46% !important;
+    height: 49.52% !important;
+    border-radius: 10px !important;
+    margin-left: -260px;
+    margin-top: 50px;
+    background: rgba(77, 152, 214, 0.2) !important;
+    min-height: 250px;
+    min-width: 320px;
+}
+
+.MenuChoosing {
+    width: 59% !important;
+    height: 92.2% !important;
+    border-radius: 10px !important;
+    margin-left: clamp(380px, 40%, 50%);
+    margin-top: 50px;
+
+    background: rgba(77, 152, 214, 0.2) !important;
+    min-height: 400px;
+    min-width: 620px;
+}
